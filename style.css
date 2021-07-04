@@ -17,6 +17,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .half {
   width: 50%;
@@ -29,7 +30,7 @@ section {
 .link-button {
   text-decoration: none;
   padding: 10px 40px;
-  background-image: linear-gradient(rgb(252, 32, 80), rgb(223, 64, 98));
+  background-image: linear-gradient(rgb(252, 32, 80), rgb(37, 5, 12));
   color: white;
   font-weight: 700;
   border-radius: 5px;
@@ -37,5 +38,29 @@ section {
 
 .top-sec {
   background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.half-2 {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-2 img {
+  width: 80%;
+}
+.ex-2 {
+  color: orangered;
+}
+.resume-button {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(rgb(56, 14, 26), rgb(255, 0, 43));
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.dream-section {
+  background-image: url(images/dream-bg.png);
+  background-position: right;
   background-repeat: no-repeat;
 }
