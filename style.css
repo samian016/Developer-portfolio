@@ -15,7 +15,7 @@ h1 {
   color: orangered;
   font-size: 150%;
 }
-section {
+.flex {
   display: flex;
   margin-bottom: 150px;
 }
