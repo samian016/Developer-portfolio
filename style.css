@@ -64,3 +64,32 @@ h1 {
   background-position: right;
   background-repeat: no-repeat;
 }
+.shadow {
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 10px 10px 50px black;
+  border-radius: 5px;
+  
+}
+.exp-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-dev{
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(36, 0, 10), rgb(255, 0, 43));
+  border-image-slice: 5;
+
+}
+#baby-dev{
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(0, 7, 105), rgb(0, 217, 255));
+  border-image-slice: 5;
+}
+footer p{
+  text-align: center;
+}
